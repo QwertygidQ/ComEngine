@@ -2,13 +2,13 @@ from distutils.core import setup
 
 setup(
     name='ComEngine',
-    version='1.2',
+    version='1.3',
     packages=['comengine'],
     license='MIT License',
     description='A Minecraft-like command engine',
     author='QwertygidQ',
     url='https://github.com/QwertygidQ/ComEngine',
-    download_url='https://github.com/QwertygidQ/ComEngine/archive/1.2.tar.gz',
+    download_url='https://github.com/QwertygidQ/ComEngine/archive/1.3.tar.gz',
     keywords=['command', 'engine', 'command-engine', 'interpreter'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',

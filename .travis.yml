@@ -11,6 +11,6 @@ before_install:
     - pip install coveralls
 script:
     - py.test --cov-report term-missing --cov=comengine tests
-    - flake8 comengine tests example.py setup.py --max-line-length=120 --ignore=F401
+    - flake8 comengine tests example.py setup.py --max-line-length=120 --ignore=F401,W504
 after_success:
     - coveralls
