@@ -1,0 +1,2 @@
+class ComEngineException(Exception):
+    pass
